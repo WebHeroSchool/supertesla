@@ -2,21 +2,26 @@
 <html>
   <head>
   <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0;  user-scalable=0;" name="viewport">
+  <link rel="stylesheet" href="./style.css">
 	<title>Tesla</title>
   </head>
   <body>
     <header class="Tesla__header">
       <nav class="Tesla__header_nav">
-        <a class="Tesla_Logo_Red"></a>
-        <a class="Tesla__header_nav_Model_S">Model S</a>
-        <a class="Tesla__header_nav_Model_X">Model X</a>
-        <a class="Tesla__header_nav_Model_3">Model 3</a>
-        <a class="Tesla__header_nav_Roadster">Roadster</a>
-        <a class="Tesla_header_nav_Energy">Energy</a>
-        <a class="Tesla__header_nav_Shop">Магазин</a>
-        <a class="Tesla__header_nav_Sign_in">Войти</a>
+        <input class="Tesla__header_nav__menu_check" type="checkbox" id="showmenu">
         <label class="Tesla__header_nav_showmenu" for="showmenu">&#9776</label>
+        <label class="nav__back" for="showmenu"></label>
+        <ul class=Tesla__header_menu>
+          <a class="Tesla__header_nav_Model_S">Model S</a>
+          <a class="Tesla__header_nav_Model_X">Model X</a>
+          <a class="Tesla__header_nav_Model_3">Model 3</a>
+          <a class="Tesla__header_nav_Roadster">Roadster</a>
+          <a class="Tesla_header_nav_Energy">Energy</a>
+          <a class="Tesla__header_nav_Shop">Магазин</a>
+          <a class="Tesla__header_nav_Sign_in">Войти</a>
+        </ul>
       </nav>
+      <a class="Tesla_Logo_Red"></a>
     </header>
   	<section class="Tesla__section">
       <h1 class="Tesla__section_title">Model S</h1>
@@ -60,7 +65,7 @@
             <div class="Tesla__section_second_info_bag_capacity_2">Объем грузового пространства</div>
           </li>
           <li class="Tesla__section_second_info_more">
-          <div>Тест Драйв</div>
+          <div>Узнать больше</div>
         </li>
         <li class="Tesla__section_second_info_order_now">Заказать</li>
         </ul>
@@ -68,10 +73,29 @@
     </section>
     <section class="Tesla__section_third">
       <div class="Tesla__section_third_side_background">
-        <h2 class="Tesla__section_third_side_background_title">
-          <p class="Tesla__section_third_side_background_text">
-            
+        <h2 class="Tesla__section_third_side_background_title">Самый безопасный автомобиль в мире</h2>
+        <p class="Tesla__section_third_side_background_text">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
+        <h2 class="Tesla__section_third_side_background_protection_rating">Оценка защиты:</h2>
+        <ul class="Tesla__section_third_side_background_protection_rating_info">
+          <li>Спереди</li>
+          <li>Сбоку</li>
+          <li>Водитель</li>
+          <li>Пассажир</li>
+        </ul>
+        <div class="Tesla__section_third_side_background_security">
+          <p class="Tesla__section_third_side_background_security_1">5 звезд</p>
+          <p class="Tesla__section_third_side_background_security_2">безопасности</p>
+        </div>
+        <li class="Tesla__section_third_side_background_info_more">
+          <div>Узнать больше</div>
+        </li>
+        <li class="Tesla__section_third_side_background_info_order_now">Заказать</li>
       </div>
+      <a class="Tesla__section_third_model"></a>
+      <a class="Tesla__section_third_mark"></a>
+      <p class="Tesla__section_third_security_info_1">Защита от удара спереди</p>
+      <p class="Tesla__section_third_security_info_2">Защита от удара сбоку</p>
+      <p class="Tesla__section_third_security_info_3">Минимальный риск перевернуться в аварии</p>
     </section>
   </body>
 </html>

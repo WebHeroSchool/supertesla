@@ -1,0 +1,12 @@
+@font-face {
+	font-family: "Montserrat";
+	src:url() format("");
+	font-variant: ;
+	font-stretch: ;
+	font-weight: ;
+	font-style: ;
+}
+html{
+	font-family: 'Montserrat', sans-serif;
+
+}
